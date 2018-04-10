@@ -1,0 +1,30 @@
+{
+  "name": "vocabularityapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "pm2 start server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xchesh/VocabularityApi.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "xchesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xchesh/VocabularityApi/issues"
+  },
+  "homepage": "https://github.com/xchesh/VocabularityApi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongodb-stitch": "^3.0.3",
+    "morgan": "^1.9.0",
+    "typed-error": "^2.0.0"
+  }
+}
