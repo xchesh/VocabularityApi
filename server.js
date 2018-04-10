@@ -1,5 +1,5 @@
 const App = require("./app");
 
-const PORT = process.argv[2];
+const config = require("./config.json")[process.env.NODE_ENV || "dev"];
 
-App.start(PORT);
+App.start(config.port);
